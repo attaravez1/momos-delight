@@ -13,9 +13,9 @@ export const navItems: NavItem[] = [
 
 export const shopInfo = {
   name: 'Momos Delight & More',
-  address: 'Shop No. 7, Raghunath Shopping Center, Godhbunder Road, Owale, Thane West, Thane, Maharashtra 400607',
+  address: 'CSMS college, Kanchanwadi, Chhatrapati Sambhajinagar, Maharashtra 431011',
   phone: '+91 81045 42203',
-  gmapLink: 'https://maps.app.goo.gl/7zxEQiUVpGzoyo3U9',
+  gmapLink: 'https://maps.app.goo.gl/AbB2pB2hEYgJ2eT8A',
   whatsappLink: 'https://wa.me/918104542203',
   telLink: 'tel:+918104542203',
 };
