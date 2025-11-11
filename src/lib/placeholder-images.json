@@ -1,3 +1,70 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "A vibrant and delicious looking spread of food on a table",
+      "imageUrl": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmb29kJTIwcmVzdGF1cmFudHxlbnwwfHx8fDE3NjI4MzEyNTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "food restaurant"
+    },
+    {
+      "id": "about-image",
+      "description": "The bright and welcoming interior of a modern restaurant",
+      "imageUrl": "https://images.unsplash.com/photo-1583354608715-177553a4035e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxyZXN0YXVyYW50JTIwaW50ZXJpb3J8ZW58MHx8fHwxNzYyNzUxMDU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "restaurant interior"
+    },
+    {
+      "id": "menu-paneer-wrap",
+      "description": "A close-up of a freshly made paneer tikka wrap",
+      "imageUrl": "https://picsum.photos/seed/103/400/400",
+      "imageHint": "paneer wrap"
+    },
+    {
+      "id": "menu-veggie-sandwich",
+      "description": "A layered veggie delight sandwich cut in half",
+      "imageUrl": "https://images.unsplash.com/photo-1655279562015-047c3da9a271?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx2ZWdnaWUlMjBzYW5kd2ljaHxlbnwwfHx8fDE3NjI3OTI5MDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "veggie sandwich"
+    },
+    {
+      "id": "menu-chicken-shawarma",
+      "description": "A juicy chicken shawarma roll ready to be eaten",
+      "imageUrl": "https://images.unsplash.com/photo-1618749805663-b2e896efeaab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2hpY2tlbiUyMHNoYXdhcm1hfGVufDB8fHx8MTc2MjgzMTI1NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chicken shawarma"
+    },
+    {
+      "id": "menu-falafel-wrap",
+      "description": "A golden-brown falafel wrap with fresh vegetables.",
+      "imageUrl": "https://images.unsplash.com/photo-1611107517117-e5f1b0c898bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxmYWxhZmVsJTIwd3JhcHxlbnwwfHx8fDE3NjI4MzEyNTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "falafel wrap"
+    },
+    {
+      "id": "gallery-food-display",
+      "description": "A beautiful display of various food items on a counter",
+      "imageUrl": "https://images.unsplash.com/photo-1623073284779-38f757e78dcd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxmb29kJTIwZGlzcGxheXxlbnwwfHx8fDE3NjI4MzEyNTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "food display"
+    },
+    {
+      "id": "gallery-storefront",
+      "description": "The exterior view of the modern Azure Bites shop",
+      "imageUrl": "https://images.unsplash.com/photo-1708164332994-3955430af3d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxyZXN0YXVyYW50JTIwc3RvcmVmcm9udHxlbnwwfHx8fDE3NjI4MzEyNTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "restaurant storefront"
+    },
+    {
+      "id": "gallery-kitchen",
+      "description": "A chef preparing food in a clean, professional kitchen",
+      "imageUrl": "https://images.unsplash.com/photo-1528712306091-ed0763094c98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxraXRjaGVuJTIwY29va2luZ3xlbnwwfHx8fDE3NjI3MzQ4Nzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "kitchen cooking"
+    },
+    {
+      "id": "gallery-dining-area",
+      "description": "A cozy and stylish dining area inside the restaurant",
+      "imageUrl": "https://images.unsplash.com/photo-1762420874148-46635a773593?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxkaW5pbmclMjBhcmVhfGVufDB8fHx8MTc2MjgxMjk3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dining area"
+    },
+    {
+      "id": "footer-map",
+      "description": "A map showing the location of Azure Bites",
+      "imageUrl": "https://images.unsplash.com/photo-1603623898182-2cd32c343d70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtYXAlMjBsb2NhdGlvbnxlbnwwfHx8fDE3NjI3OTg5MDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "map location"
+    }
+  ]
 }
