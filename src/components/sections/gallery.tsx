@@ -16,7 +16,7 @@ export function Gallery() {
       <div className="container">
         <AnimatedText
           el="h2"
-          text="A Glimpse of Azure Bites"
+          text="A Glimpse of Momos Delight & More"
           className="text-4xl md:text-5xl font-headline text-center text-primary mb-12"
         />
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">

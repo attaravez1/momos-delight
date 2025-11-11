@@ -40,7 +40,7 @@ export function Hero() {
       <div className="relative z-10 text-white px-4">
         <AnimatedText
           el="h1"
-          text="Welcome to Azure Bites"
+          text="Welcome to Momos Delight & More"
           className="font-headline text-5xl md:text-7xl font-bold mb-4 drop-shadow-lg"
         />
         <AnimatedText

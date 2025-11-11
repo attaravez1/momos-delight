@@ -12,7 +12,7 @@ export const navItems: NavItem[] = [
 ];
 
 export const shopInfo = {
-  name: 'Azure Bites',
+  name: 'Momos Delight & More',
   address: 'Shop No. 7, Raghunath Shopping Center, Godhbunder Road, Owale, Thane West, Thane, Maharashtra 400607',
   phone: '+91 81045 42203',
   gmapLink: 'https://maps.app.goo.gl/7zxEQiUVpGzoyo3U9',
@@ -31,8 +31,8 @@ export const openingHours: OpeningHour[] = [
 ];
 
 export const aboutContent = {
-  story: "Born from a passion for authentic flavors and fresh ingredients, Azure Bites is a culinary dream brought to life. Our journey began with a simple mission: to serve delicious, high-quality food that brings people together. We believe that every meal should be a memorable experience, crafted with love and attention to detail.",
-  specialties: "We specialize in a delightful array of handcrafted wraps, hearty sandwiches, and savory rolls. Our signature dishes, like the Paneer Tikka Wrap and Chicken Shawarma, are made using secret family recipes and the freshest local produce. At Azure Bites, quality isn't just a promise—it's our main ingredient.",
+  story: "Born from a passion for authentic flavors and fresh ingredients, Momos Delight & More is a culinary dream brought to life. Our journey began with a simple mission: to serve delicious, high-quality food that brings people together. We believe that every meal should be a memorable experience, crafted with love and attention to detail.",
+  specialties: "We specialize in a delightful array of handcrafted wraps, hearty sandwiches, and savory rolls. Our signature dishes, like the Paneer Tikka Wrap and Chicken Shawarma, are made using secret family recipes and the freshest local produce. At Momos Delight & More, quality isn't just a promise—it's our main ingredient.",
 };
 
 export const menuItems: MenuItem[] = [

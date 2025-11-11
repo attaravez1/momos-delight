@@ -5,9 +5,9 @@ import { FloatingActionButton } from '@/components/ui/floating-action-button';
 import { cn } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Azure Bites | Delicious Food in Thane',
-  description: 'Azure Bites offers a variety of delicious wraps, sandwiches, and rolls. Visit us at Godhbunder Road, Owale, Thane West.',
-  keywords: 'Azure Bites, food shop, Thane, wraps, sandwiches, rolls, restaurant',
+  title: 'Momos Delight & More | Delicious Food in Thane',
+  description: 'Momos Delight & More offers a variety of delicious wraps, sandwiches, and rolls. Visit us at Godhbunder Road, Owale, Thane West.',
+  keywords: 'Momos Delight & More, food shop, Thane, wraps, sandwiches, rolls, restaurant',
 };
 
 export default function RootLayout({
