@@ -15,7 +15,7 @@ export const shopInfo = {
   name: 'Azure Bites',
   address: 'Shop No. 7, Raghunath Shopping Center, Godhbunder Road, Owale, Thane West, Thane, Maharashtra 400607',
   phone: '+91 81045 42203',
-  gmapLink: 'https://www.google.com/maps/dir/?api=1&destination=Shop+No.+7,+Raghunath+Shopping+Center,+Godhbunder+Road,+Owale,+Thane+West,+Thane,+Maharashtra+400607',
+  gmapLink: 'https://maps.app.goo.gl/7zxEQiUVpGzoyo3U9',
   whatsappLink: 'https://wa.me/918104542203',
   telLink: 'tel:+918104542203',
 };
