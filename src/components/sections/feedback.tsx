@@ -13,6 +13,7 @@ import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '
 import { useToast } from '@/hooks/use-toast';
 import AnimatedText from '@/components/ui/animated-text';
 import { cn } from '@/lib/utils';
+import { Textarea } from '../ui/textarea';
 
 const feedbackSchema = z.object({
   name: z.string().min(2, { message: 'Name must be at least 2 characters.' }),
@@ -22,6 +23,7 @@ const feedbackSchema = z.object({
   ambience: z.number().min(1).max(5),
   foodQuality: z.number().min(1).max(5),
   price: z.number().min(1).max(5),
+  comments: z.string().optional(),
 });
 
 type FeedbackFormValues = z.infer<typeof feedbackSchema>;
@@ -68,6 +70,7 @@ export function Feedback() {
       ambience: 0,
       foodQuality: 0,
       price: 0,
+      comments: '',
     },
   });
 
@@ -197,6 +200,23 @@ export function Feedback() {
                     )}
                   />
                 </div>
+                 <FormField
+                    control={form.control}
+                    name="comments"
+                    render={({ field }) => (
+                      <FormItem>
+                        <FormLabel>Additional Comments</FormLabel>
+                        <FormControl>
+                          <Textarea
+                            placeholder="Tell us anything else you'd like us to know."
+                            className="resize-none"
+                            {...field}
+                          />
+                        </FormControl>
+                        <FormMessage />
+                      </FormItem>
+                    )}
+                  />
                 <div className="text-center">
                   <Button type="submit" size="lg">
                     Submit Feedback
