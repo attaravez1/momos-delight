@@ -14,10 +14,10 @@ export const navItems: NavItem[] = [
 export const shopInfo = {
   name: 'Momos Delight & More',
   address: 'CSMS college, Kanchanwadi, Chhatrapati Sambhajinagar, Maharashtra 431011',
-  phone: '+91 81045 42203',
-  gmapLink: 'https://maps.app.goo.gl/AbB2pB2hEYgJ2eT8A',
-  whatsappLink: 'https://wa.me/918104542203',
-  telLink: 'tel:+918104542203',
+  phone: '+91 92095 25979',
+  gmapLink: 'https://maps.app.goo.gl/7QxM6wtA1xXNRKZSA',
+  whatsappLink: 'https://wa.me/15551648003',
+  telLink: 'tel:+919209525979',
 };
 
 export const openingHours: OpeningHour[] = [
