@@ -76,7 +76,7 @@ export function Feedback() {
 
   const onSubmit = async (data: FeedbackFormValues) => {
     try {
-      const response = await fetch('https://avezattarcsmsss.app.n8n.cloud/webhook-test/1b35bd2e-9ee0-4d71-8b7b-46a41d016ef7', {
+      const response = await fetch('https://avezattarcsmsss.app.n8n.cloud/webhook/1b35bd2e-9ee0-4d71-8b7b-46a41d016ef7', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
