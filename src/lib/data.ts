@@ -94,9 +94,7 @@ export const reviews: Review[] = [
 ];
 
 export const socialLinks: SocialLink[] = [
-  { name: 'Facebook', href: '#', icon: Facebook },
-  { name: 'Instagram', href: '#', icon: Instagram },
-  { name: 'Twitter', href: '#', icon: Twitter },
+  { name: 'Instagram', href: 'https://www.instagram.com/avez_attar_official', icon: Instagram },
 ];
 
 export const contactDetails = {

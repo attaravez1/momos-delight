@@ -5,9 +5,11 @@ import { shopInfo, socialLinks, openingHours } from '@/lib/data';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import AnimatedText from '@/components/ui/animated-text';
 import IconWrapper from '@/components/ui/icon-wrapper';
+import { Instagram } from 'lucide-react';
 
 export function Footer() {
   const mapImage = PlaceHolderImages.find(img => img.id === 'footer-map');
+  const instagramHandle = 'avez_attar_official';
 
   return (
     <footer id="footer" className="bg-secondary text-secondary-foreground py-12">
@@ -66,6 +68,17 @@ export function Footer() {
       </div>
       <div className="container mt-8 pt-8 border-t border-border/50 text-center">
         <p>&copy; {new Date().getFullYear()} {shopInfo.name}. All Rights Reserved.</p>
+         <p className="text-sm mt-2">
+            Contact developer via Instagram:{' '}
+            <a
+              href={`https://www.instagram.com/${instagramHandle}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary hover:underline"
+            >
+              @{instagramHandle}
+            </a>
+          </p>
       </div>
     </footer>
   );
