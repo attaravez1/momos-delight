@@ -74,13 +74,37 @@ export function Feedback() {
     },
   });
 
-  const onSubmit = (data: FeedbackFormValues) => {
-    console.log(data);
-    toast({
-      title: 'Feedback Submitted!',
-      description: 'Thank you for sharing your thoughts with us.',
-    });
-    form.reset();
+  const onSubmit = async (data: FeedbackFormValues) => {
+    try {
+      const response = await fetch('https://avezattarcsmsss.app.n8n.cloud/webhook-test/1b35bd2e-9ee0-4d71-8b7b-46a41d016ef7', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      });
+
+      if (response.ok) {
+        toast({
+          title: 'Feedback Submitted!',
+          description: 'Thank you for sharing your thoughts with us.',
+        });
+        form.reset();
+      } else {
+        toast({
+          variant: 'destructive',
+          title: 'Submission Failed',
+          description: 'Could not submit your feedback. Please try again.',
+        });
+      }
+    } catch (error) {
+      console.error('Submission error:', error);
+      toast({
+        variant: 'destructive',
+        title: 'An Error Occurred',
+        description: 'Something went wrong. Please try again later.',
+      });
+    }
   };
 
   return (
@@ -218,8 +242,8 @@ export function Feedback() {
                     )}
                   />
                 <div className="text-center">
-                  <Button type="submit" size="lg">
-                    Submit Feedback
+                  <Button type="submit" size="lg" disabled={form.formState.isSubmitting}>
+                    {form.formState.isSubmitting ? 'Submitting...' : 'Submit Feedback'}
                   </Button>
                 </div>
               </form>
